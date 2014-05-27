@@ -1,0 +1,39 @@
+{% block content %}
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <h1>{{ topic.topic }}</h1>
+    <ul>
+         <li>
+            <em>发起者:</em>
+            {{ topic.auther }}
+            <em>发起时间:</em>
+            {{ topic.createtime }}
+        </li>
+        <li>
+            <em>简介:</em>
+            {{ topic.introduce }}
+        </li>
+    </ul>
+    <a href="/techtopics/list">return to list</a>
+    <ul>
+    <span>-------------------------------------------------------------------</span>
+    {% for comm in comments %}
+        {% if comm.topiclink == topic %}
+            <ul>
+                <li>
+                    <em>{{ comm.auther }}</em>
+                    <em>时间:{{ comm.commtime }}</em>
+                    <em>评论:{{ comm.context }}</em>
+                </li>
+            </ul>
+        {% endif %}
+    {% endfor %}
+    <span>-------------------------------------------------------------------</span>
+    <form action="submit_comment" method="post">{% csrf_token %}
+        评论内容：
+        <textarea name="context"></textarea>
+        <input type="submit" id="send" value="提交" />
+    </form>
+    </ul>
+{% endblock %}

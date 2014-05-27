@@ -1,0 +1,14 @@
+{% block content %}
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+
+    <form action="/techtopics/topic/create" method="post"> {% csrf_token %}
+        <p>讨论主题: <input type="text" name="topic" /></p>
+        <p>简介: <input type="text" name="introduce" /></p>
+
+        <input type="submit" value="Submit" />
+    </form>
+
+{% endblock %}

@@ -1,0 +1,13 @@
+{% block content %}
+    {% for user in user_list %}
+        <ul>
+            <li><a href="/techtopics/user/{{ user.id }}/"> {{ user.username }} </a></li>
+            <h3>{{ user.password }}</h3>
+            <li>{{ user.email }}</li>
+        </ul>
+        <a href="/techtopics/delete/{{ user.id }}">删除</a>
+        <li>
+            <span>-------------------------------------------------------------------</span>
+        </li>
+    {% endfor %}
+{% endblock %}
