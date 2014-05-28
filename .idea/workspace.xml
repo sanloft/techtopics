@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be58d20d-568c-478e-b631-8f2edd8e9933" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/techtopics/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/techtopics/topic_list.html" afterPath="$PROJECT_DIR$/templates/techtopics/topic_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/techtopics/base.html" afterPath="$PROJECT_DIR$/templates/techtopics/base.html" />
     </list>
     <ignored path="techtopics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,19 +39,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/techtopicApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="53" selection-start="252" selection-end="252" vertical-scroll-proportion="0.06955178" vertical-offset="90" max-vertical-offset="1800">
+            <state line="16" column="25" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1800">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/techtopics/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="330">
+            <state line="9" column="23" selection-start="398" selection-end="398" vertical-scroll-proportion="0.21669342" vertical-offset="0" max-vertical-offset="623">
               <folding />
             </state>
           </provider>
@@ -151,8 +148,8 @@
         <option value="$PROJECT_DIR$/techtopics/urls.py" />
         <option value="$PROJECT_DIR$/templates/techtopics/user_create.html" />
         <option value="$PROJECT_DIR$/techtopicApp/views.py" />
-        <option value="$PROJECT_DIR$/templates/techtopics/base.html" />
         <option value="$PROJECT_DIR$/templates/techtopics/topic_list.html" />
+        <option value="$PROJECT_DIR$/templates/techtopics/base.html" />
       </list>
     </option>
   </component>
@@ -715,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/techtopics/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/techtopics/topic_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="65" selection-start="1139" selection-end="1139" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="615">
@@ -731,7 +721,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/techtopicApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="252" selection-end="252" vertical-scroll-proportion="0.06955178" vertical-offset="90" max-vertical-offset="1800">
+        <state line="16" column="25" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/techtopics/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="398" selection-end="398" vertical-scroll-proportion="0.21669342" vertical-offset="0" max-vertical-offset="623">
           <folding />
         </state>
       </provider>
