@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be58d20d-568c-478e-b631-8f2edd8e9933" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/techtopics/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/techtopics/topic_list.html" afterPath="$PROJECT_DIR$/templates/techtopics/topic_list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="techtopics.iws" />
@@ -31,21 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/techtopics/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="0" selection-start="2548" selection-end="2548" vertical-scroll-proportion="-7.2" vertical-offset="1350" max-vertical-offset="1755">
-              <folding>
-                <element signature="e#321#330#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/techtopics/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="12" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="465">
+            <state line="14" column="12" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -54,7 +45,25 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/techtopicApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="53" selection-start="252" selection-end="252" vertical-scroll-proportion="0.32142857" vertical-offset="0" max-vertical-offset="1800">
+            <state line="9" column="53" selection-start="252" selection-end="252" vertical-scroll-proportion="0.06955178" vertical-offset="90" max-vertical-offset="1800">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/techtopics/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="23" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
@@ -63,7 +72,7 @@
       <file leaf-file-name="user_login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/techtopics/user_login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="57" selection-start="267" selection-end="267" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="300">
+            <state line="8" column="57" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -72,7 +81,7 @@
       <file leaf-file-name="user_detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/techtopics/user_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="28" selection-start="250" selection-end="250" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="300">
+            <state line="10" column="28" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -81,7 +90,7 @@
       <file leaf-file-name="topic_detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/techtopics/topic_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="44" selection-start="1046" selection-end="1046" vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="660">
+            <state line="34" column="44" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -90,7 +99,7 @@
       <file leaf-file-name="topic_list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/techtopics/topic_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="33" selection-start="762" selection-end="762" vertical-scroll-proportion="-2.92" vertical-offset="51" max-vertical-offset="540">
+            <state line="30" column="65" selection-start="1139" selection-end="1139" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -99,7 +108,7 @@
       <file leaf-file-name="user_create.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/techtopics/user_create.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
+            <state line="13" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -108,7 +117,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/techtopicApp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="32" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+            <state line="16" column="32" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -141,15 +150,16 @@
         <option value="$PROJECT_DIR$/templates/techtopics/topic_detail.html" />
         <option value="$PROJECT_DIR$/techtopics/urls.py" />
         <option value="$PROJECT_DIR$/templates/techtopics/user_create.html" />
-        <option value="$PROJECT_DIR$/templates/techtopics/topic_list.html" />
         <option value="$PROJECT_DIR$/techtopicApp/views.py" />
+        <option value="$PROJECT_DIR$/templates/techtopics/base.html" />
+        <option value="$PROJECT_DIR$/templates/techtopics/topic_list.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="813" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -158,7 +168,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -297,6 +307,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techtopics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techtopics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -305,12 +333,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -402,7 +430,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="techtopics" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -428,27 +476,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="techtopics" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -544,20 +572,40 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="813" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="816" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.7157287" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22022955" sideWeight="0.7157287" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22381635" sideWeight="0.6704871" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28427127" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28427127" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -582,28 +630,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/site-packages/django/core/context_processors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="1125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/site-packages/django/core/handlers/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="13" selection-start="5296" selection-end="5296" vertical-scroll-proportion="0.33333334" vertical-offset="1887" max-vertical-offset="3105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/site-packages/django/middleware/csrf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060">
-          <folding>
-            <element signature="e#153#192#0" expanded="false" />
-            <element signature="e#2187#8258#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-1199943130/builtins.py">
@@ -615,23 +644,17 @@
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/site-packages/django/contrib/auth/signals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.14492753" vertical-offset="0" max-vertical-offset="414">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.14492753" vertical-offset="0" max-vertical-offset="414" />
       </provider>
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/site-packages/django/dispatch/dispatcher.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="8" selection-start="5624" selection-end="5624" vertical-scroll-proportion="0.007246377" vertical-offset="2352" max-vertical-offset="4620">
-          <folding />
-        </state>
+        <state line="161" column="8" selection-start="5624" selection-end="5624" vertical-scroll-proportion="0.007246377" vertical-offset="2352" max-vertical-offset="4620" />
       </provider>
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/site-packages/django/contrib/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="22" selection-start="3610" selection-end="3610" vertical-scroll-proportion="0.4057971" vertical-offset="1242" max-vertical-offset="2295">
-          <folding />
-        </state>
+        <state line="101" column="22" selection-start="3610" selection-end="3610" vertical-scroll-proportion="0.4057971" vertical-offset="1242" max-vertical-offset="2295" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/techtopics/settings.py">
@@ -645,7 +668,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/techtopics/topic_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="44" selection-start="1046" selection-end="1046" vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="660">
+        <state line="34" column="44" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
@@ -659,28 +682,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/techtopics/user_create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
+        <state line="13" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/techtopics/user_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="250" selection-end="250" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="300">
+        <state line="10" column="28" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/techtopics/user_login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="57" selection-start="267" selection-end="267" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/techtopics/topic_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="33" selection-start="762" selection-end="762" vertical-scroll-proportion="-2.92" vertical-offset="51" max-vertical-offset="540">
+        <state line="8" column="57" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
@@ -692,9 +708,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/techtopics/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/techtopics/topic_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="65" selection-start="1139" selection-end="1139" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/techtopicApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="252" selection-end="252" vertical-scroll-proportion="0.32142857" vertical-offset="0" max-vertical-offset="1800">
+        <state line="9" column="53" selection-start="252" selection-end="252" vertical-scroll-proportion="0.06955178" vertical-offset="90" max-vertical-offset="1800">
           <folding />
         </state>
       </provider>

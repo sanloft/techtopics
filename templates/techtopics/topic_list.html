@@ -1,3 +1,7 @@
+{% extends "base.html" %}
+
+{% block title %}话题列表{% endblock %}
+
 {% block content %}
     {% if user.is_authenticated %}
         <div>
@@ -15,6 +19,7 @@
                 <button class="btn" type="submit">登录</button>
             </form>
     {% endif %}
+
     <li><a href="/techtopics/topic/create"> Create New Topic </a></li>
     {% for topic in topic_list %}
         <ul>
