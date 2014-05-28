@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be58d20d-568c-478e-b631-8f2edd8e9933" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/techtopics/topic_list.html" afterPath="$PROJECT_DIR$/templates/techtopics/topic_list.html" />
-    </list>
+    <list default="true" id="be58d20d-568c-478e-b631-8f2edd8e9933" name="Default" comment="" />
     <ignored path="techtopics.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,7 +58,7 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="22" selection-start="35" selection-end="35" vertical-scroll-proportion="0.100222714" vertical-offset="0" max-vertical-offset="449">
+            <state line="9" column="1" selection-start="79" selection-end="79" vertical-scroll-proportion="0.30066815" vertical-offset="0" max-vertical-offset="449">
               <folding />
             </state>
           </provider>
@@ -730,7 +727,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="35" selection-end="35" vertical-scroll-proportion="0.100222714" vertical-offset="0" max-vertical-offset="449">
+        <state line="9" column="1" selection-start="79" selection-end="79" vertical-scroll-proportion="0.30066815" vertical-offset="0" max-vertical-offset="449">
           <folding />
         </state>
       </provider>
