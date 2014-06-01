@@ -3,14 +3,16 @@
 {% block title %}话题列表{% endblock %}
 
 {% block content %}
+    <div id="top">
     {% if user.is_authenticated %}
-        <div id="welcome">
-            <a href=#>欢迎您：{{user}}</a>
-            <a href="/techtopics/logout">注销</a>
-        </div>
+        <form action="/techtopics/logout" id="welcome" method="post">
+            {% csrf_token %}
+            欢迎您：{{user}}
+            <button type="submit">注销</button>
+        </form>
         {% else %}
             {% if login_require %}
-                <p>请先登录！或者<a href="/techtopics/user/register">立即注册</a></p>
+                <h3 id="loginfail">请先登录！或者<a href="/techtopics/user/register">立即注册</a></h3>
             {% endif %}
             <form action="/techtopics/login" id="login" method='post'>
                 {% csrf_token %}
@@ -19,18 +21,20 @@
                 <button class="btn" type="submit">登录</button>
             </form>
     {% endif %}
+    </div>
+    <div id="body">
+        <li><a href="/techtopics/topic/create"> Create New Topic </a></li>
+        {% for topic in topic_list %}
+            <ul>
+                <li><a href="/techtopics/topic/{{ topic.id }}/"> {{ topic.topic }} </a></li>
+                <p>发起者：{{ topic.auther }}        <em>创建时间：{{ topic.createtime }}</em></p>
+                <h3>{{ topic.introduce }}</h3>
 
-    <li><a href="/techtopics/topic/create"> Create New Topic </a></li>
-    {% for topic in topic_list %}
-        <ul>
-            <li><a href="/techtopics/topic/{{ topic.id }}/"> {{ topic.topic }} </a></li>
-            <p>发起者：{{ topic.auther }}        <em>创建时间：{{ topic.createtime }}</em></p>
-            <h3>{{ topic.introduce }}</h3>
-
-        </ul>
-        <a href="/techtopics/topic/delete/{{ topic.id }}/">删除</a>
-        <li>
-            <span>-------------------------------------------------------------------</span>
-        </li>
-    {% endfor %}
+            </ul>
+            <a href="/techtopics/topic/delete/{{ topic.id }}/">删除</a>
+            <li>
+                <span>-------------------------------------------------------------------</span>
+            </li>
+        {% endfor %}
+    </div>
 {% endblock %}

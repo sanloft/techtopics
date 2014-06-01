@@ -70,7 +70,8 @@ def user_login(request):
             #return TemplateResponse(request, 'techtopics/topic_list.html', {'topic_list': Topics.objects})
             return redirect('/techtopics/list')
         else :
-            return TemplateResponse(request, 'techtopics/user_login.html')
+            login_require = True
+            return TemplateResponse(request, 'techtopics/topic_list.html', {'login_require': login_require})
     elif request.method == 'GET':
         return TemplateResponse(request, 'techtopics/user_login.html')
 
